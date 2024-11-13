@@ -1,4 +1,4 @@
-ALTER TABLE cars MODIFY price DECIMAL(10, 2);sys_configaccount
+ALTER TABLE cars MODIFY price DECIMAL(10, 2);
 ALTER TABLE invoices MODIFY total_price DECIMAL(10, 2);
 
 INSERT INTO cars (VIN, manufacturer, model, year, color, price) VALUES
@@ -51,4 +51,5 @@ SET email = 'hello@napoleon.me'
 WHERE name = 'Napoléon Bonaparte';
 
 SET SQL_SAFE_UPDATES = 1;
+
 SELECT * FROM customers;
